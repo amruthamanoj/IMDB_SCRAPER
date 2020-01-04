@@ -5,4 +5,8 @@ A scraper for IMDB with python
 
 Works for other sites as well
 
+(given for both a single url/page and multiple pages)
 
+-saves the scraped info to csv
+
+-python notebook attached
