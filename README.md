@@ -9,4 +9,4 @@ Works for other sites as well
 
 -saves the scraped info to csv
 
--python notebook attached
+-python notebook(.ipynb) attached
