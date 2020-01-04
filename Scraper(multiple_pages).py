@@ -7,7 +7,7 @@ import os
 
 #CREATE A DIRECTORY TO SAVE THE FILES AND SPECIFY ITS PATH
 
-path = '/Users/apple/Desktop/py/series'
+path = 'Your_path' 
 os.chdir(path)
 
 
