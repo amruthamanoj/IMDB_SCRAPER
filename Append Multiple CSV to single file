@@ -1,0 +1,18 @@
+import os
+path = 'FOLDER_PATH' #specify path to the folder containing the files
+os.chdir(path)
+
+
+
+import glob
+
+final = pd.DataFrame() #create empty DF
+for f in glob.glob("*.csv"): 
+
+#find all CSVs. Befor the '*' you can secify if at all there are any patterns in the file names
+    
+    final=final.append(pd.read_csv(f)) #append each f to the empty df
+
+final.to_csv('final.csv', encoding='utf-8', index=False, header= True)
+
+
